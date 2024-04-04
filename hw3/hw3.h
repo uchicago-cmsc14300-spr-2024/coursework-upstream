@@ -61,7 +61,7 @@ byte mean_red(prgb *colors, int len);
 
 // build new array that is a connected to b
 // GIGO if a or b is NULL or either length incorrect
-int *connect(int *a, int alen, int *b, int blen);
+int *connect_int_arrays(int *a, int alen, int *b, int blen);
 
 // build new array that contains all doubles, truncated
 // GIGO if a is NULL or len is incorrect

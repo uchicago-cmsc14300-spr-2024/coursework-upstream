@@ -62,7 +62,7 @@ byte mean_red(prgb *colors, int len)
   exit(1);
 }
 
-int *connect(int *a, int alen, int *b, int blen)
+int *connect_int_arrays(int *a, int alen, int *b, int blen)
 {
   exit(1);
 }

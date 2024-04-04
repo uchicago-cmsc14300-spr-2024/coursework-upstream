@@ -136,13 +136,13 @@ Test(hw3_mean_red, mean_red00)
   cr_assert(mean_red(a,2)==2);
 }
 
-// -------- connect
+// -------- connect_int_arrays
 
 Test(hw3_connect, connect00)
 {
   int a[] = {1,2};
   int b[] = {3,4,5};
-  int *c = connect(a,2,b,3);
+  int *c = connect_int_arrays(a,2,b,3);
   int d[] = {1,2,3,4,5};
   cr_assert(int_arr_eq(c,d,5));  
 }
