@@ -420,7 +420,7 @@ Test(hw2_earlier, earlier01)
 
 Test(hw2_earlier, earlier02)
 {
-  cr_assert(earlier(20230231,20240101));
+  cr_assert(earlier(20231231,20240101));
 }
 
 Test(hw2_earlier, earlier03)
