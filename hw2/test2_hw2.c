@@ -447,7 +447,7 @@ Test(hw2_later, later01)
 
 Test(hw2_later, later02)
 {
-  cr_assert(!later(20230231,20240101));
+  cr_assert(!later(20231231,20240101));
 }
 
 Test(hw2_later, later03)
