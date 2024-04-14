@@ -73,7 +73,7 @@ Test(hw4_towards, towards00)
 
 // -------- distance
 
-Test(hw3_distance, distance00)
+Test(hw4_distance, distance00)
 {
   struct point *p = point_new(0,0);
   double d = distance(p,p);
@@ -83,7 +83,7 @@ Test(hw3_distance, distance00)
 
 // -------- same_quadrant
 
-Test(hw3_same_quad, same_quad00)
+Test(hw4_same_quad, same_quad00)
 {
   struct point *p = point_new(0,0);
   int q = same_quadrant(p,p);
