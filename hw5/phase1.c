@@ -43,18 +43,23 @@ Test(hw5_bitstring, bistring00)
 
 Test(hw5_polygon_perim, polygon_perim00)
 {
-  point p = {0,0};
-  point_list *ps = pl_cons(p, pl_cons(p, pl_cons(p, NULL)));
+  point p1 = {0,0};
+  point p2 = {1,1};
+  point p3 = {2,0};
+  point_list *ps = pl_cons(p1, pl_cons(p2, pl_cons(p3, NULL)));
   polygon_perim(ps);
   cr_assert(1);
+  pl_free(ps);
 }
 
 // -------- linreg
 
 Test(hw5_linreg, linreg00)
 {
-  point p = {0,0};
-  point_list *ps = pl_cons(p, pl_cons(p, pl_cons(p, NULL)));
+  point p1 = {0,0};
+  point p2 = {1,1};
+  point p3 = {2,0};
+  point_list *ps = pl_cons(p1, pl_cons(p2, pl_cons(p3, NULL)));
   linreg(ps);
   cr_assert(1);
   pl_free(ps);
